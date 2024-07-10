@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 1440px;
+    /* max-height: 1100px; */
 }
 
 /* Azeret Mono font add*/
@@ -233,7 +234,7 @@
 }
 
 
-.footer-body{
+.contact-field{
     background-image: url(../assets/handshake.jpg);
     width: 80vw;
     height: 80vh;
@@ -246,16 +247,16 @@
     justify-content: center;
     
 }
-.footer-body p{
+.contact-field p{
     color: white;
 }
-.footer-body h1{
+.contact-field h1{
     color: white;
     font-size: 32px;
     font-weight: 800;
     
 }
-.footer-question{
+.question-or-feedback{
     width: 548px;
     height: 57px;
     padding-left: 50px;
@@ -263,7 +264,7 @@
 
     border: none;
 }
-.footer-submit-btn{
+.question-submit-btn{
     width: 120px;
     height: 57px;
     font-size: 20px;
