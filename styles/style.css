@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1440px;
-    max-height: 652px;
 }
 
 /* Azeret Mono font add*/
@@ -95,34 +93,27 @@
     background-color: #0D1321;
     border-radius: 8px;
 }
+/* fjowejfofjofijiof */
 
-
-/* Here is an article about web development argument named Discussion-Article */
 
 .discussion-article{
-    margin: 80px 145px 40px 145px;
     width: 1000px;
-    padding: 50px;
-    
-
+    height: 1200px;
+    margin: 40px auto;
 }
-.query-section>h1{
+.query-head{
     font-size: 35px;
     font-weight: 800;
     text-align: center;
 }
-    
+
 .para-style{ 
     font-size: 16px;
-    color: #0D1321;
+    color: #0d132190;
     padding: 24px 25px;
     text-align: center;
 }
 
-.vision-section{
-    display: flex;
-    gap: 50px;
-}
 .learn-more-btn{
     width: 171px;
     height: 47px;
@@ -138,5 +129,8 @@
     color: #0d13219c;
 
 }
-
-
+.vision-section{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+}
