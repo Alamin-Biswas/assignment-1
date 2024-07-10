@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1440px;
 }
 
 /* Azeret Mono font add*/
@@ -54,7 +55,7 @@
 .intro-area{
     height: 601px;
     display: inline-block;
-    margin: 0 200px;
+    margin: 0 50px;
     
 }
 .introduction-image-div{
@@ -70,7 +71,7 @@
 
 }
 .introduction-head{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 800;
     color: #0D1321;
     text-align: center;
@@ -94,6 +95,12 @@
     background-color: #0D1321;
     border-radius: 8px;
 }
+
+
+.introduction-button>a{
+    text-decoration: none;
+    color: white;
+}
 /* argument article about web development named "Discussion-Article"*/
 
 
@@ -112,6 +119,7 @@
     font-size: 16px;
     color: #0d132190;
     padding: 24px 25px;
+    margin: 0 100px;
     text-align: center;
 }
 
@@ -133,7 +141,7 @@
 .vision-section{
     display: flex;
     gap: 50px;
-    margin: 50px;
+    margin: 50px 100px;
 }
 
 /* Video Section */
@@ -222,4 +230,64 @@
     font-weight: 800;
     color: black;
     text-decoration: underline;
+}
+
+
+.footer-body{
+    background-image: url(../assets/handshake.jpg);
+    width: 80vw;
+    height: 80vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-body p{
+    color: white;
+}
+.footer-body h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+.footer-question{
+    width: 548px;
+    height: 57px;
+    padding-left: 50px;
+    border-radius: 8px;
+
+    border: none;
+}
+.footer-submit-btn{
+    width: 120px;
+    height: 57px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* Footer link */
+.footer-link{
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.footer-link div{
+    padding: 0 100px;
 }
